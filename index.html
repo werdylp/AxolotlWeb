@@ -3,40 +3,56 @@
 
 <head>
   <title>Připoj se k nám</title>
+  <meta property="og:title" content="AXOLOTLISMUS">
+  <meta property="og:site_name" content="Sekta uctívající axolotly, Matěje (libovolný druh), Lukáše, susšenky a kyselé bonbony">
+  <meta property="og:url" content="https://werdylp.github.io/AxolotlWeb/">
+  <meta property="og:description" content="Stránka naší axolotlistické sekty">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="PRIPOJSEKNAM.jpg">
 </head>
 <style>
-  * {
+  html,body {
     background-color: black;
     color: red;
+    margin: 0;
   }
 
-header{
-  height: 60px;
-  background-color: red;
-  color: black;
-  text-align: center;
-  font-size: 50px;
-  margin-top: 0;
-  display: block;
-  border: hidden;
-}
+  header {
+    height: 70px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    border: hidden;
+    font-family: comicSans;
+  }
 
+  @font-face {
+    font-family: comicSans;
+    src: url(COMIC.TTF);
+  }
 
+  .pripojsetext {
+    padding-top: 3px;
+  }
 
-
-  .pripojse {
+  .pripojsepic {
     width: 400px;
   }
 
-  .obrazek{
+  .obrazek {
     text-align: center;
   }
 </style>
 
 <body>
-  <header>PŘIPOJ SE K NÁM</header>
+  <header>
+    <div class="pripojsetext">PŘIPOJ SE K NÁM</div>
+  </header>
+
   <div class="obrazek">
-    <img class="pripojse" src="https://files.catbox.moe/6qoqf5.jpg">
+    <img class="pripojsepic" src="PRIPOJSEKNAM.jpg">
   </div>
 </body>
 
