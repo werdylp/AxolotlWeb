@@ -41,19 +41,30 @@
     width: 400px;
   }
 
-  .obrazek {
-    text-align: center;
-  }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 
 <body>
   <header>
     <div class="pripojsetext">PŘIPOJ SE K NÁM</div>
   </header>
+  <div class="row">
+    <div class="column"></div>
+    <div class="column"><img class="pripojsepic" src="PRIPOJSEKNAM.jpg"></div>
+    <div class="column"></div> 
 
-  <div class="obrazek">
-    <img class="pripojsepic" src="PRIPOJSEKNAM.jpg">
-  </div>
 </body>
 
 </html>
