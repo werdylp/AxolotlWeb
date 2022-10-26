@@ -12,7 +12,9 @@
 </head>
 <style>
   html,body {
-    background-color: black;
+
+    background-color: rgb(0, 0, 0);
+
     color: red;
     margin: 0;
   }
@@ -41,12 +43,10 @@
     width: 400px;
   }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
+
+.column-left{ float: left; width: 33.333%; text-align: center;}
+.column-right{ float: right; width: 33.333%; text-align: center;}
+.column-center{ display: inline-block; width: 33.333%; text-align: center;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -60,10 +60,42 @@
   <header>
     <div class="pripojsetext">PŘIPOJ SE K NÁM</div>
   </header>
-  <div class="row">
+<!--  <div class="row">
     <div class="column"></div>
     <div class="column"><img class="pripojsepic" src="PRIPOJSEKNAM.jpg"></div>
     <div class="column"></div> 
+  </div> -->
+
+  <div class="row">
+    <div class="column-left">
+      <h2>AXOLOTLISMUS</h2>
+      <p>Jsme sekta a chceme nadvládu nad světem, spoustu sušenek, kyselých bonbonů a Matějů!</p>
+    </div>
+    <div class="column-center">
+      <img class="pripojsepic" src="PRIPOJSEKNAM.jpg">
+    </div>
+    <div class="column-right">
+      <h2>Proč byste se měli připojit???</h2>
+      <p>Dáme Vám smysl života</p>
+    </div>
+  </div>
+  
+
+  <!--GALERIE-->
+  <div class="row" style="margin-top: 150px;">
+    <div class="column-left">
+      <img src="https://images.pexels.com/photos/216640/pexels-photo-216640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      width="400px">
+    </div>
+    <div class="column-center">
+      <img src="AXOHELL.jpg" style="width: 400px;">
+    </div>
+    <div class="column-right">
+      <img src="https://cdn.pixabay.com/photo/2021/12/14/15/16/axolotl-6870652_1280.jpg" width="400">
+    </div>
+  </div>
+  <!--GALERIE-->
+  
 
 </body>
 
