@@ -16,17 +16,95 @@
     <meta property="og:image" content="https://bit.ly/42Gxc42">
     
     <link rel="stylesheet" href="./style.css" type="text/css" />
-    <style type="text/css">.body { width: auto; }</style>
+    <style type="text/css">.body { width: auto; }
+    
+    div
+{
+    text-align: center;
+
+
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width:15%;
+}
+.one
+{   
+    float: left;  
+    font-size: 30px;
+    color: white;
+}
+.two
+{
+    float: left;
+    width: 60%;
+    align-items: initial;
+}
+.three
+{
+  font-size: 30px;
+    
+    float: left;
+}
+
+
+
+.box b {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 15s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 15s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 15s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 15s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 100%; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 100%; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 100%; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 100%; }
+}
+
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 70%; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 70%; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 70%; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 70%; }
+}
+    </style>
     <script src="script.js"></script>
   </head>
   <body onload="hodiny(); myCas(); aktCas(); myDatum(); dnes(); svatek(); mySvatky(); ">
+    
+    <div class="one"><img src="assets/axolotl2.png"><a href="https://www.superzoo.cz/skola/axolotl-mexicky-neobvykly-mazlicek-do-akvaria/">JAK SE STARAT O AXOLOTLA</a><img src="assets/axolotl.png"><a href="https://kackojicin.cz/" >KÁČKO JIČÍN</a></div>
+      <div class="two">
+        <h1>Ahoj, vítej na AXOLOTL WEBU <a href="realAxolotl.html"><img src="axolotl.jpeg" width="80px" ></a></h1>
 
-    <h1>Ahoj, vítej na AXOLOTL WEBU <a href="realAxolotl.html"><img src="axolotl.jpeg" width="80px" ></a></h1>
-
-
-    <div id="hodiny">&nbsp;</div>
-    <div id="datum">&nbsp;</div>
-    <div id="svatek">&nbsp;</div>
+        <div id="hodiny">&nbsp;</div>
+        <div id="datum">&nbsp;</div>
+        <div id="svatek">&nbsp;</div>
+      </div>
+      <div class="three"><p>TENTO WEB NEMÁ NIC SPOLEČNÉHO S VAŘENÍM PIKA NEBO NADVLÁDOU SVĚTU!!!</p></div>
+      <div class="box"><b></b></div>
 
 
   </body>
